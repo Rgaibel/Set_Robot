@@ -69,13 +69,13 @@ if __name__ == '__main__':
     # example cards
     card1 = Card(Color.GREEN, Shading.STRIPED, Number.ONE, Shape.SQUIGGLE, 1)
     card2 = Card(Color.RED, Shading.EMPTY, Number.ONE, Shape.DIAMOND, 2)
-    card3 = Card(Color.GREEN, Shading.SOLID, Number.ONE, Shape.OVAL, 3)
-    card4 = Card(Color.RED, Shading.STRIPED, Number.ONE, Shape.SQUIGGLE, 4)
+    card3 = Card(Color.GREEN, Shading.SOLID, Number.THREE, Shape.OVAL, 3)
+    card4 = Card(Color.RED, Shading.STRIPED, Number.TWO, Shape.SQUIGGLE, 4)
     card5 = Card(Color.PURPLE, Shading.EMPTY, Number.ONE, Shape.DIAMOND, 5)
     card6 = Card(Color.RED, Shading.SOLID, Number.ONE, Shape.OVAL, 6)
-    card7 = Card(Color.PURPLE, Shading.STRIPED, Number.ONE, Shape.SQUIGGLE, 7)
+    card7 = Card(Color.PURPLE, Shading.STRIPED, Number.THREE, Shape.SQUIGGLE, 7)
     card8 = Card(Color.PURPLE, Shading.EMPTY, Number.ONE, Shape.DIAMOND, 8)
-    card9 = Card(Color.RED, Shading.SOLID, Number.ONE, Shape.OVAL, 9)
+    card9 = Card(Color.RED, Shading.SOLID, Number.TWO, Shape.OVAL, 9)
 
     cards = [card1, card2, card3, card4, card5, card6, card7, card8, card9]
 
